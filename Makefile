@@ -7,3 +7,6 @@ install:
 
 sync:
 	@pip-sync requirements-dev.txt
+
+test:
+	@python -m pytest tests
